@@ -1,0 +1,8 @@
+print(""); print("Alan Steven Martinez Fernandez: 0795"); print("")
+print("coloca un numero para comparar si esta entre el 1 y el 12")#da las instrucciones
+n=int(input("coloca el numero "))#define como int separa hace posible modificarlo y indica cuando modificarlo 
+if n<=12 and n>=1:#si "n" es menor y igual a 12 y mayor o igual a 1 se realizara la condicion
+    print(n," esta entre el 1 y el 12");print("")#separa y da el resultado
+else:#en caso de que no se cumpla se realizara la otra condicion
+    print(n," no esta entre el 1 y 12");print("")#separa y da el resultado
+    ![image](https://github.com/user-attachments/assets/ca5aa5c2-dc88-43a1-a6b0-a4910fd9f47e)
